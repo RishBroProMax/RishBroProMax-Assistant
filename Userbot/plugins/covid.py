@@ -34,6 +34,7 @@ COVIDLOCAL = f"""
 └ **Total deaths⚰** - `{local_deaths}`
 
 🔄Updated on {update_date_time}
+💠Powerd By @ImRishmika_Bot
 """
 
 COVIDGLOBAL = f"""
@@ -46,6 +47,7 @@ COVIDGLOBAL = f"""
 └ **Total deaths⚰** - `{global_deaths}`
 
 🔄Updated on {update_date_time}
+💠Powerd By @ImRishmika_Bot
 """
 
 REPLY_MARKUPL = InlineKeyboardMarkup(
