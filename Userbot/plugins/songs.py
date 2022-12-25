@@ -46,6 +46,15 @@ def song(client, message):
         print(str(e))
         return
     m.edit("📥 Downloading...")
+    m.edit("Downloading in processing...\n\n[░░░░░░░░░░] 0%")
+    m.edit("Downloading in processing...\n\n[▇▇░░░░░░░░] 20%")
+    m.edit("Downloading in processing...\n\n[▇▇▇▇░░░░░░] 40%")
+    m.edit("Downloading in processing...\n\n[▇▇▇▇▇▇░░░░] 60%")
+    m.edit("Downloading in processing...\n\n[▇▇▇▇▇▇▇▇░░] 80%")
+    m.edit("Downloading in processing...\n\n[▇▇▇▇▇▇▇▇▇▇] 100%")
+    m.edit("🧩Exproting On Youtube Sever...")
+    m.edit("🧑‍💻Saving On ImRishmika Sever...")
+    m.edit("📤 Uploading...")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
