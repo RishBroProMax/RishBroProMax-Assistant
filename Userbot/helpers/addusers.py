@@ -25,7 +25,6 @@ async def AddUserToDatabase(bot: Client, cmd: Message):
 📛 **NAME**   :[{cmd.from_user.first_name}](tg://user?id={cmd.from_user.id})
 👤 **USER ID**:`{cmd.from_user.id}`
 
-**[{Config.BOT_NAME} ✅](https://t.me/{Config.BOT_USERNAME})**
 """,
                 disable_web_page_preview=True
                 )
@@ -42,7 +41,6 @@ async def AddChatToDatabase(bot: Client, cmd: Message):
 📛 **CHAT NAME**:[Link](tg://user?id={cmd.chat.id})
 👤 **CHAT ID**  :`{cmd.chat.id}`
 
-**[{Config.BOT_NAME} ✅](https://t.me/{Config.BOT_USERNAME})**
 """,
                 disable_web_page_preview=True
             )
