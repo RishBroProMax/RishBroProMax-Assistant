@@ -34,16 +34,19 @@ imgcaption = f"""
 @bot.on_message(filters.command("xlogo") & ~filters.forwarded)
 async def logomake(_, message: Message):
     if len(message.command) != 2:
-        return await message.reply_text("Please give a text.\nEx:`/logo Sithija's Assistant` ")
+        return await message.reply_text("Please give a text.\nEx:`/logo Fuck` ")
     else:
         pass
     m = await message.reply('Designing your logo...wait!')
-    await m.edit("Logo in processing...\n░░░░░░░░░░ 0%")
-    await m.edit("Logo in processing...\n▇▇░░░░░░░░ 20%")
-    await m.edit("Logo in processing...\n▇▇▇▇░░░░░░ 40%")
-    await m.edit("Logo in processing...\n▇▇▇▇▇▇░░░░ 60%")
-    await m.edit("Logo in processing...\n▇▇▇▇▇▇▇▇░░ 80%")
-    await m.edit("Logo in processing...\n▇▇▇▇▇▇▇▇▇▇ 100%")
+   await m.edit("Logo in processing...\n\n[░░░░░░░░░░] 0%")
+    await m.edit("Logo in processing...\n\n[▇▇░░░░░░░░] 20%")
+    await m.edit("Logo in processing...\n\n[▇▇▇▇░░░░░░] 40%")
+    await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇░░░░] 60%")
+    await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇▇▇░░] 80%")
+    await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇▇▇▇▇] 100%")
+    await m.edit("🧩Exproting On Pixellab Sever...")
+    await m.edit("🧑‍💻Saving On ImRishmika Sever...")
+    await m.edit("🤗Removing Logo Watermark...")
     await m.edit("📤 Uploading...")
     text = message.text.split(None, 1)[1]
     Image_STD = Image.open("./Userbot/resources/maskbg.jpg")
@@ -64,7 +67,7 @@ async def logomake(_, message: Message):
 @bot.on_message(filters.command("mlogo") & ~filters.forwarded)
 async def logomake(_, message: Message):
     if len(message.command) != 2:
-        return await message.reply_text("Please give a text.\nEx:`/mlogo Sithija` ")
+        return await message.reply_text("Please give a text.\nEx:`/mlogo XXXXXX` ")
     else:
         pass
     m = await message.reply('Designing your logo...wait!')
@@ -74,6 +77,9 @@ async def logomake(_, message: Message):
     await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇░░░░] 60%")
     await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇▇▇░░] 80%")
     await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇▇▇▇▇] 100%")
+    await m.edit("🧩Exproting On Pixellab Sever...")
+    await m.edit("🧑‍💻Saving On ImRishmika Sever...")
+    await m.edit("🤗Removing Logo Watermark...")
     await m.edit("📤 Uploading...")
     text = message.text.split(None, 1)[1]
     img = Image.open("./Userbot/resources/maskbg.jpg")
@@ -98,20 +104,23 @@ async def logomake(_, message: Message):
             )
     await m.delete()
 
-"""
-@bot.on_message(filters.command("plogo") & ~filters.forwarded)
+
+@bot.on_message(filters.command("logo") & ~filters.forwarded)
 async def logomake(_, message: Message):
     if len(message.command) != 2:
-        return await message.reply_text("Please give a text.\nEx:`/plogo hehe` ")
+        return await message.reply_text("Please give a text.\nEx:`/plogo Sexy` ")
     else:
         pass
     m = await message.reply('Designing your logo...wait!')
-    await m.edit("Logo in processing...\n\n[░░░░░░░░░░] 0%")
+   await m.edit("Logo in processing...\n\n[░░░░░░░░░░] 0%")
     await m.edit("Logo in processing...\n\n[▇▇░░░░░░░░] 20%")
     await m.edit("Logo in processing...\n\n[▇▇▇▇░░░░░░] 40%")
     await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇░░░░] 60%")
     await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇▇▇░░] 80%")
     await m.edit("Logo in processing...\n\n[▇▇▇▇▇▇▇▇▇▇] 100%")
+    await m.edit("🧩Exproting On Pixellab Sever...")
+    await m.edit("🧑‍💻Saving On ImRishmika Sever...")
+    await m.edit("🤗Removing Logo Watermark...")
     await m.edit("📤 Uploading...")
     text = message.text.split(None, 1)[1]
     img = Image.open("./Userbot/resources/20220404_091513.jpg")
@@ -135,4 +144,4 @@ async def logomake(_, message: Message):
                 reply_markup = repmark
             )
     await m.delete()
-"""
+
