@@ -14,7 +14,7 @@ So you can get a help about them. 🚀**
 ||💖 Thank you for use my bot
 Stay with me forever... ❤️‍🔥||
 
-**[DɪʟᴜᴍBBᴀɴᴅᴀʀᴀ](https://t.me/{Config.C_CHANNEL})**
+**[Rishmika Sandanu](https://t.me/{Config.C_CHANNEL})**
 
 """
 
@@ -27,12 +27,12 @@ So you can get a help about them. 🚀**
 ||💖 Thank you for use my bot
 Stay with me forever... ❤️‍🔥||
 
-**[DɪʟᴜᴍBBᴀɴᴅᴀʀᴀ](https://t.me/{Config.C_CHANNEL})**
+**[Rishmika Sandanu](https://t.me/{Config.C_CHANNEL})**
 
 """
 CLOSE_BUTTONS = [
 	[
-	InlineKeyboardButton('匚ㄥㄖ丂|几ᘜ ...', callback_data='stats_callback'),
+	InlineKeyboardButton('Closing..', callback_data='stats_callback'),
 	],
 ]
 
@@ -97,25 +97,25 @@ HACK_TEXT = """
 
 HELP_BUTTONS = [
 	[
-	InlineKeyboardButton("Url", callback_data='url'),
+	InlineKeyboardButton("🍁Url🍁", callback_data='url'),
 	],
 	[
-	InlineKeyboardButton("Logo", callback_data='logo'),
+	InlineKeyboardButton("🔥Logo🔥", callback_data='logo'),
 	],
 	[
-	InlineKeyboardButton("Song", callback_data='song'),
+	InlineKeyboardButton("🎵Song🎵", callback_data='song'),
 	],
 	[
-	InlineKeyboardButton("Covid", callback_data='covid'),
+	InlineKeyboardButton("🧬Covid🧬", callback_data='covid'),
 	],
 	[
-	InlineKeyboardButton("Quote", callback_data='quote'),
+	InlineKeyboardButton("🌺Quote🌺", callback_data='quote'),
 	],
 	[
-	InlineKeyboardButton("SMS-Bomber", callback_data='otpbomber'),
+	InlineKeyboardButton("☃️SMS-Bomber☃️", callback_data='otpbomber'),
 	],
 	[
-	InlineKeyboardButton("Hack", callback_data='hack'),
+	InlineKeyboardButton("💠Hack💠", callback_data='hack'),
 	],
 	[
 	InlineKeyboardButton(text='Close 🗑', callback_data='close'),
@@ -128,13 +128,13 @@ SMS_TEXT = """
 
 **Available Commands**
 
-❥ `/otpbomber {phone number}` - **[SMS-Bomber](https://t.me/Mars11Lkbot)**
+❥ `/otpbomber {phone number}`
 
 """
 
 START_MESSAGE_BUTTONS = [
 	[
-	InlineKeyboardButton('☃︎━━━━━━━━━━━━━━☃︎', callback_data='stats_callback'),
+	InlineKeyboardButton('☃️━━━━━━Stats━━━━━━━☃️', callback_data='stats_callback'),
 	],
 	[
 	InlineKeyboardButton('☘️ CHANNEL ☘️', url=f'https://t.me/{Config.CHANNEL}'),
@@ -173,7 +173,7 @@ CAPTION_TEXT = [
 
 VISIT_PM = [
 	[
-	InlineKeyboardButton('━━━━━━━━━━━━━━', callback_data='stats_callback'),
+	InlineKeyboardButton('☃️━━━━━━━━━━━━━━☃️', callback_data='stats_callback'),
 	],
 	[
 	InlineKeyboardButton('☘️ Visit PM ☘️', url=f'https://t.me/{Config.BOT_USERNAME}?start'),
@@ -182,6 +182,6 @@ VISIT_PM = [
 
 LOGO = """
 
-BOT STARTING IN PROGRESS... ✅
+BOT FUCKING STATED
 
 """
